@@ -189,6 +189,13 @@ export function LuckyGridPage({handleRefresh}) {
             shadow: '3',
             imgs: [{src: "/raffle-gem-photo.jpg", width: "100px", height: "100px"}]
         },
+        {
+            x: 2,
+            y: 2,
+            background: "#7f95d1",
+            shadow: '3',
+            imgs: [{src: "/raffle-gem-cat.jpg", width: "100px", height: "100px"}]
+        },
     ])
 
     const [defaultStyle] = useState([{background: "#b8c5f2"}])
